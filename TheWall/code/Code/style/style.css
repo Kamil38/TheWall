@@ -1,0 +1,189 @@
+body{
+	margin: 0;
+  padding: 0;
+  background: white;
+  color: black;
+  overflow-x: hidden;
+  width: 100vw;
+}
+.autos__container{
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+}
+.autos{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.auto{
+	display: inline-block;
+	background-color: #9EAA2D;
+  padding: 1px;
+	margin-bottom: 10px;
+	text-align: center;
+  color: black;
+  align-items: center;
+}
+
+.auto img {
+  width: 400px;
+  height: 400px;
+	max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+h1 {
+  margin-left: 10px;
+	text-align: left;
+  color: black;
+  font-family: 'Cookie', cursive;
+  left: 200px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.buttons {
+	  border-radius: 25px;
+  	background-color: #9EAA2D;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    max-width: 200px;
+    max-height: 50px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.buttons:hover {
+	background-color: #101820FF;
+	color: white;
+}
+
+.buttons1 {
+  border: 4px solid #101820FF;
+  border-radius: 25px;
+  background-color: #9EAA2D;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  max-width: 200px;
+  max-height: 50px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons1:hover {
+  background-color: #101820FF;
+	color: white;
+}
+
+
+.button {	
+    border: none;
+    border-radius: 25px;
+    color: #101820FF;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    max-width: 200px;
+    max-height: 50px;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .button1 {
+    background-color: #101820FF; 
+    color: white; 
+    border: 2px solid #9EAA2D;
+  }
+  
+  .button1:hover {
+    background-color: #9EAA2D;
+    color: white;
+  }
+  
+
+p, button, input {
+	color: white;
+}
+
+.special {
+  color: black;
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #101820FF;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.container img {
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.container h1, .container p {
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+/*
+centerbox page
+*/
+.centerbox__wrapper{
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.centerbox__content{
+  margin-left: 30px;
+  width: 700px;
+  background-color: #aab447;
+  border: 10px solid #eeca3d;
+}
+.centerbox__form p label{
+  color: white;
+  width: 200px;
+    display: inline-block;
+}
+
+/*
+  Login page
+*/
+.login__wrapper{
+}
+ h3 {
+   text-align: center;
+   justify-content: center;
+ }
+ a {
+   text-decoration: none;
+ }

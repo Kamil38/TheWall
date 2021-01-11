@@ -1,0 +1,68 @@
+.autocover{
+  width: 400px;
+  height: 400px;
+  
+  margin: 0.5em;
+}
+
+.auto {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 0.5em;
+}
+.auto article {
+  
+}
+
+.auto article {
+  position: relative;
+  background-color: rgba(255,255,255,0.5);
+  height: 400px;
+  font-size: .9em;
+  padding: 6px;
+  margin-top: 0;
+  transition: margin-top .8s;
+  overflow: hidden;
+  border: 10px rgba(255,255,255,0.5);
+
+  /* animation: naar-beneden 1s forwards; */
+}
+
+.auto:hover article {
+  margin-top: -404px;
+  cursor: pointer;
+  /* animation: naar-boven .8s forwards; */
+}
+
+.naarBoven article {
+  animation: naar-boven 1s forwards;
+
+}
+
+.naarBeneden article {
+  animation: naar-beneden 1s forwards;
+}
+
+@-webkit-keyframes naar-beneden {
+  10% {margin-top: -230px;}
+  30% {margin-top: -152px;}
+  50% {margin-top: -76px;}
+  70% {margin-top: -38px;}
+  90% {margin-top: -19px;}
+  20%, 40%, 60%, 80%, 100% {margin-top: 0;}
+}
+
+@-webkit-keyframes naar-boven {
+  10% {margin-top: 0;}
+  30% {margin-top: -155px;}
+  50% {margin-top: -175px;}
+  70% {margin-top: -200px;}
+  90% {margin-top: -230px;}
+  20%, 40%, 60%, 80%, 100% {margin-top: -308px;}
+}
+
+.auto article h2, .auto article h3  {
+  /* padding: 1em; */
+}

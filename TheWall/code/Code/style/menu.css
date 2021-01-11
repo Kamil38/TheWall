@@ -1,0 +1,72 @@
+nav {
+  background-color: #9EAA2D;
+  color: cornsilk;
+  position: fixed;
+  width: 300px;
+  right:0;
+  height: 100vh;
+  z-index: 10;
+  transition: right .5s ease-in-out;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: cornsilk;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: block;
+  border-bottom: 1px solid cornsilk;
+}
+
+nav a.active {
+  padding: 1em 1.3em;
+  border-left: .7em solid cornsilk;
+  border-right: .7em solid cornsilk;
+}
+
+
+.haalmenu {
+  font-size: 3em;
+  padding: .5em 2rem;
+  display: block;
+  text-align: right;
+  cursor: pointer;
+}
+.haalmenu i {
+  color: #eeca3d;
+}
+
+.haal-menu {
+  font-size: 3em;
+  padding: .5em 2rem;
+  display: block;
+  border-bottom: 2px solid white;
+  text-align: right;
+  cursor: pointer;
+}
+
+#menuSwitcher {
+  display: none;
+  visibility: hidden;
+}
+
+#menuSwitcher:checked ~ nav {
+  left: 100vw;
+}
+  .nav__container{
+    width: 100%;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #9eaa2d;
+    justify-content: space-between;
+  }
+  .nav__container .nav__container__logo{
+    margin-left: 25px;
+    display: flex;
+  }
